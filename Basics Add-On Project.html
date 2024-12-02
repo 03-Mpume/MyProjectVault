@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My K-Drama World 🫰🏾</title>
+    <style>
+      body {
+        background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/126/063/original/fba954f7b2cb0ee778e51d41c7827ae3.jpg?1715330652);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #363636;
+        transition: background-image 0.5s ease;
+      }
+
+      .content {
+        max-width: 700px;
+        margin: 10px auto;
+        background: linear-gradient(
+          0deg,
+          rgb(247, 247, 247) 23.8%,
+          rgb(252, 221, 221) 92%
+        );
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        text-align: center;
+        color: #150404;
+        font-weight: bolder;
+        font-size: 36px;
+      }
+
+      h2 {
+        text-align: center;
+        color: #363636;
+        font-style: italic;
+        font-size: 20px;
+      }
+
+      .country {
+        font-size: 16px;
+        font-weight: lighter;
+      }
+
+      img {
+        max-width: 70%;
+        display: block;
+        margin: 20px auto;
+        border-radius: 4px;
+      }
+
+      p {
+        text-align: justify;
+        margin: 20px;
+        line-height: 1.5;
+        color: #363636;
+        font-family: Arial, sans-serif;
+      }
+
+      ul {
+        text-align: left;
+        list-style-type: none;
+        padding: 0;
+        margin: 20px;
+      }
+
+      li {
+        margin-bottom: 12px;
+      }
+
+      .list-links {
+        text-decoration: none;
+      }
+
+      .list-links:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid #ff894c;
+        background: transparent;
+        font-size: 16px;
+        border-radius: 8px;
+        padding: 8px 13px;
+        transition: all 150ms ease-in-out;
+      }
+
+      button:hover {
+        background: #f46f6f;
+        color: #f8f8f8;
+        cursor: pointer;
+      }
+
+      footer {
+        text-align: center;
+        margin: 10px 0;
+        font-size: 12px;
+        background-color: #bd8c8c;
+        color: #f8f8f8;
+      }
+
+      .theme {
+        font-size: 8px;
+        background: black;
+        color: white;
+        padding: 5px 6px;
+        transition: transform 0.3s ease;
+      }
+
+      .theme:hover {
+        transform: scale(1.1);
+      }
+
+      .photo-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        margin-top: 20px;
+      }
+
+      .photo-grid img {
+        transition: transform 0.3s ease;
+      }
+
+      .photo-grid img:hover {
+        transform: scale(1.5);
+        filter: brightness(120%);
+        border-color: #f72222;
+      }
+
+      body.dark {
+        background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/126/062/original/b525450f2f71e8d8fed0a347e4edb379.jpg?1715330638);
+      }
+
+      .dark .content {
+        background: linear-gradient(
+          109.6deg,
+          rgb(1, 124, 137) 11.2%,
+          rgb(0, 0, 0) 90.1%
+        );
+        color: white;
+      }
+
+      .dark h1,
+      .dark h2,
+      .dark p,
+      .dark button {
+        color: white;
+      }
+
+      .dark .theme {
+        background-color: white;
+        color: black;
+      }
+
+      .dark .theme:hover {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="theme">Change theme</button>
+    <div class="content">
+      <h1>Discover the 🌏 of K-Drama</h1>
+      <h2>
+        Take a trip to South Korea<span class="country">🇰🇷</span> with just
+        K-Dramas!
+      </h2>
+      <a href="https://www.90daykorean.com/kdrama/" target="_blank">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/985/original/b05569ee9633a36a701bce4100292ea6.jpg?1715269545"
+          alt="My Dearest"
+          width="300"
+          class="about"
+        />
+      </a>
+      <div class="photo-grid">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/986/original/31d49e9c6cac86fe1022246ed28758b0.jpg?1715269637"
+          alt="Beyond Evil"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/987/original/04e97ed02739de626a7975bef3f4a11d.jpg?1715269715"
+          alt="Squid Game"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/988/original/5a1f7bd418020a56eadca0c999f2c8b9.jpg?1715269776"
+          alt="Island"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/990/original/633036c4108808512d8fbc9cca94e205.jpg?1715269878"
+          alt="Misty"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/989/original/def276840cec0f9f7c267218c8b2eeb6.jpg?1715269862"
+          alt="Queen of Tears"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/992/original/0dcd1e727f5c79f8989f73f564a0902c.jpg?1715270568"
+          alt="Flower of Evil"
+        />
+      </div>
+      <p>
+        K-drama is short for “Korean drama” which pertains to television series
+        created in South Korea. These series have become popular not only in
+        Korea but globally, making them more accessible for K-drama fans through
+        streaming websites like Netflix. Along with other Korean entertainment,
+        such as K-pop and Korean movies, K-dramas have fueled the Korean Wave,
+        which has been constantly expanding worldwide.
+      </p>
+      <ul>
+        <li>
+          <a
+            href="https://koreancultureblog.com/2016/10/10/k-drama-series-a-brief-history-of-k-dramas/"
+            style="color: #f72222"
+            class="list-links"
+            >→ The history</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.studocu.com/en-au/document/st-george-girls-high-school/music/music-of-korea-kdrama-ost/34404516"
+            style="color: #f72222"
+            class="list-links"
+            >→ Music in k-dramas</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.cosmopolitan.com/entertainment/tv/g33538589/best-korean-drama-kdrama-shows/"
+            style="color: #f72222"
+            class="list-links"
+            >→ Some recommendations</a
+          >
+        </li>
+      </ul>
+      <button onclick="unlock()">Unlock your 1st K-Drama 🔓</button>
+    </div>
+
+    <footer>
+      Coded by
+      <a
+        href="https://www.linkedin.com/in/nompumelelo-n-nkosi-4603bb282/"
+        target="_blank"
+        class="author"
+      >
+        Nompumelelo Nkosi</a
+      >
+    </footer>
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+
+      let themeButton = document.querySelector(".theme");
+      themeButton.addEventListener("click", changeTheme);
+
+      function unlock() {
+        let name = prompt("What is your name?");
+        let platform = prompt(
+          "Which platform do you prefer: Netflix, Viu, or iQiYi?"
+        );
+
+        alert(
+          "Binge some k-drama on " +
+            platform +
+            " " +
+            name +
+            "! Happy streaming 🫶🏾"
+        );
+
+        if (platform.toUpperCase() === "NETFLIX") {
+          window.location.href =
+            "https://www.netflix.com/za/browse/genre/2638104";
+        } else if (platform.toUpperCase() === "VIU") {
+          window.location.href =
+            "https://www.viu.com/ott/za/en/category/768/Korean";
+        } else if (platform.toUpperCase() === "IQIYI") {
+          window.location.href =
+            "https://www.iq.com/film-library?value=5994284567780333;must&chnid=2";
+        } else
+          alert(
+            "Invalid platform selection. Please choose Netflix, Viu, or iQiYi."
+          );
+      }
+    </script>
+  </body>
+</html>
